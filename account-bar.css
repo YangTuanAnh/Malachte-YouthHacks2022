@@ -1,0 +1,23 @@
+#account-bar-wrapper {
+  float:right;
+  width:25%;
+}
+p {
+  float: left;
+  width: 75%;
+  font-family:monospace;
+}
+
+.banner {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  height: 6.5rem;
+  object-fit:cover;
+  width: 100%;
+}
+
+#account-bar-wrapper img {
+  box-shadow: 5px 5px black;
+}

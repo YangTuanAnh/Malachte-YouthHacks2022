@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Malachte</title>
+
+    <!-- the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/pomodoro.css" />
+    <link rel="stylesheet" href="/todo.css" />
+    <link rel="stylesheet" href="/account-bar.css" />
+
+    <!-- the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- start of content -->
+    <header>
+      <img
+        class="banner"
+        src="https://cdn.glitch.global/97c0085a-d3f9-4c03-878b-1d397f357acd/831017c9-dd7e-4ef5-bbc7-d275b4be0d5d.image.png?v=1647669072249"
+      />
+      <h1>Malachte</h1>
+      <span>
+        <i>Your productivity tool, gamified</i>
+      </span>
+      <div id="account-bar-wrapper">
+        <a href="#" onclick="changeavatar()">
+          <img id="avatar" src="https://cdn.glitch.global/1ffa3f9c-5de3-4bb5-9df5-75a9d98c5c74/download.png?v=1647629990379"
+            style="float: right"
+            width="100px"
+          />
+        </a>
+        <div id="account-bar">
+          <div
+            id="account-bar-name"
+            align="right"
+            contenteditable="true"
+            style="display: block"
+          >
+            <b>Character</b>
+          </div>
+          <div id="account-bar-level" align="right">Level 0</div>
+
+          <div id="account-bar-next-level" align="right"></div>
+          <div id="newavatar" align="right"></div>
+        </div>
+      </div>
+    </header>
+    <p>
+      Welcome to <b>Malachte</b>! Our website uses a points system. For every
+      task you finish, you gain 10 xp. For every 25 minutes finished with the
+      Pomodoro Timer, you gain 25 xp. Enjoy your stay and be motivated!
+    </p>
+
+    <main>
+      <div id="pomodoro-app">
+        <h2>Pomodoro Timer</h2>
+        <span>Divide your work into 25 minute chunks.</span>
+        <br />
+        <div id="container">
+          <div id="timer">
+            <div id="time">
+              <span id="minutes">25</span>
+              <span id="colon">:</span>
+              <span id="seconds">00</span>
+            </div>
+            <div id="filler"></div>
+          </div>
+
+          <div id="buttons">
+            <button id="work">Work</button>
+            <button id="shortBreak">Short Break</button>
+            <button id="longBreak">Long Break</button>
+            <button id="stop">Stop</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="todo">
+        <h2>To-do List</h2>
+        <span> Keep track of your tasks here and level up! </span> <br />
+        <input type="text" id="todoinput" />
+        <button id="todobtn">+</button>
+        <div id="items"></div>
+      </div>
+
+      <h2 style="clear: both">Music Playlist</h2>
+      <span>
+        Enjoy our curated songs for focused work, or treat yourself to a break.
+      </span>
+      <div>
+        <div class="song">
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/playlist/1h0CEZCm6IbFTbxThn6Xcs?utm_source=generator"
+            width="100%"
+            height="380"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          ></iframe>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <hr />
+      <span> © Team Malachite 2022 | All Rights Reserved </span>
+    </footer>
+  </body>
+</html>

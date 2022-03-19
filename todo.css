@@ -1,0 +1,22 @@
+.todo {
+  display:inline-block;
+  width:50%;
+  vertical-align:top;
+  float:right;
+}
+
+.todo input {
+  width: 80%;
+  border-radius:50px;
+}
+
+.todo button {
+  width: 15%;
+  background:#4da6ff; 
+  border:none; 
+  color:#fff; 
+  cursor:pointer; 
+  padding:5px; 
+  margin:10px auto;
+  border-radius : 50px;
+}
