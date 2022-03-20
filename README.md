@@ -16,7 +16,7 @@ This is a basic static HTML starter project you can build on however you like. N
 
 ## Description
 While electronic devices are required for online learning, they easily steal attention for long periods of time. Us students find it harder to recall information and stay motivated during online learning, and procrastination is no exception. <br/>
-Therefore, gamification and digital planning is the way to go, to reingage students to productivity. //
-Team Malachite presents Malachte, your productivity tool, gamified. The web app consists of 4 main features - a pomodoro timer, a to-do list, a curated music playlist, and an account bar. //
+Therefore, gamification and digital planning is the way to go, to reingage students to productivity. <br/>
+Team Malachite presents Malachte, your productivity tool, gamified. The web app consists of 4 main features - a pomodoro timer, a to-do list, a curated music playlist, and an account bar. <br/>
 For every task you finish, you gain 10 xp. For every 25 minutes finished with the Pomodoro Timer, you gain 25 xp. After a certain amount of xp, you gain levels to unlock new avatars by pressing the image. User data is locally stored so you can return whenever. This incentivizes the user to come back and use the web app in the long term.
 Welcome to Malachte! Enjoy your stay and be motivated!
