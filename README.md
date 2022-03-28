@@ -1,22 +1,15 @@
 # Malachte
+## Inspiration
+One of the lessons we learnt in quarantine is that technology is a double-edged sword: It can be either very good for you or… maybe not so much.
+While electronic devices are our main tool to dig in online learning, they easily steal our attention with platforms such as Instagram or TikTok with their promise to make us evacuate reality… but this can trap us and we may catch ourselves lacking in all of our other activities we must do in a day to keep us productive, we catch ourselves in the technology prison.
+We have discovered the worst enemy a student in the never-ending pandemic has; procrastination. Procrastinating makes us lose our skill of recalling information and staying motivated during online learning.
 
-This is a basic static HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen 🪄 immediately in the preview window. You can upload assets like images or audio in `assets` to the left. The rest is up to you and your imagination.
+## What it does
+To end this unhealthy cycle our only solution is gamification and digital planning with the purpose to re-engage students to an efficient and high-yielding lifestyle. Team Malachite presents Malachte, your productivity tool, gamified.
+The web app consists of 4 main features - a Pomodoro timer, a to-do list, a curated music playlist, and an account bar. For every task you finish, you gain 10 XP. For every 25 minutes finished with the Pomodoro Timer, you gain 25 XP. After a certain amount of XP, you gain levels to unlock new avatars by pressing the image.
+User data is locally stored so you can return it whenever. This incentivizes the user to come back and use the web app in the long term! We are creating healthy habits while adding fulfilment to the students' lives.
 
-## What's in this project?
+## What's next for Malachte
+We are sure that this solution will bring a better day to day life to all students because after all, they are our future and our present. So welcome to Malachte! We hope you enjoy your stay and continue to be motivated!
 
-← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
-
-← `index.html`: This is the main HTML page for your site.
-
-← `style.css`: CSS files add styling rules to your content.
-
-← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
-
-## Description
-While electronic devices are required for online learning, they easily steal attention for long periods of time. Us students find it harder to recall information and stay motivated during online learning, and procrastination is no exception. <br/>
-Therefore, gamification and digital planning is the way to go, to reingage students to productivity. <br/>
-Team Malachite presents Malachte, your productivity tool, gamified. The web app consists of 4 main features - a pomodoro timer, a to-do list, a curated music playlist, and an account bar. <br/>
-For every task you finish, you gain 10 xp. For every 25 minutes finished with the Pomodoro Timer, you gain 25 xp. After a certain amount of xp, you gain levels to unlock new avatars by pressing the image. User data is locally stored so you can return whenever. This incentivizes the user to come back and use the web app in the long term.
-Welcome to Malachte! Enjoy your stay and be motivated!
+<a href="https://youtu.be/mNHtOa_4aLw">Team Malachite presents Malachte</a>
